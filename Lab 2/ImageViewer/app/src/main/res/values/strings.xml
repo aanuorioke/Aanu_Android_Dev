@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageViewer</string>
+    <string name="buttonChangeImage">Change Image</string>
+    <string name="outputField"></string>
+    <string name="enterName" />
+    <string name="greeting">Hello</string>
+</resources>
