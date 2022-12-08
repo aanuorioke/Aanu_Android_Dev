@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.res.stringResource
+import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -14,6 +15,11 @@ import androidx.navigation.compose.rememberNavController
 import com.example.bottomnavigationproject.R
 import com.example.bottomnavigationproject.model.Routes
 import com.example.bottomnavigationproject.model.sampleNavigationItemData
+
+/*
+ * References:
+ * https://www.answertopia.com/jetpack-compose/a-compose-bottom-navigation-bar-tutorial/
+ */
 
 @RequiresApi(Build.VERSION_CODES.N)
 @Composable
